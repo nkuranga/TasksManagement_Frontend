@@ -1,0 +1,166 @@
+.wrapper {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  height: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.left-side {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.right-side {
+  display: flex;
+}
+.right-side span {
+  padding-right: 30px;
+  display: flex;
+  cursor: pointer;
+}
+.header-icons {
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.input {
+  width: 92%;
+  margin-left: 20px;
+  display: flex;
+  background-color: #f4f4f4;
+  outline: none;
+  border: 1px solid #d1cece;
+  padding: 7px;
+}
+.form-wrapper label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.form-wrapper {
+  margin: 15px;
+}
+.row {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.col-6 {
+  width: 42%;
+}
+.col-6 input {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.mult-select {
+  width: 95%;
+  margin-left: 20px;
+}
+.radio-buttons {
+  display: flex;
+  margin-top: 10px;
+  overflow: hidden;
+  margin-left: 19px;
+}
+.radio-button {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: 15%;
+  padding: 8px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(206, 204, 204);
+  width: 100%;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+.btn-save {
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  cursor: pointer;
+}
+.btn-cancel {
+  background-color: inherit;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 70px;
+}
+.countContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 40%;
+}
+.countContainer p {
+  font-size: 9px;
+}
+.errMsg {
+  width: 92%;
+  margin-left: 20px;
+  display: flex;
+  background-color: #f4f4f4;
+  outline: none;
+  border: 2px solid red;
+  padding: 9px;
+}
+.success {
+  border-color: #bdb7b7;
+}
+.hide {
+  display: none;
+}
+.leftMsg {
+  float: right;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.btn-cancel-disabled {
+  padding: 7px;
+  width: 70px;
+  background-color: #f4f4f4;
+  padding: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: progress;
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
