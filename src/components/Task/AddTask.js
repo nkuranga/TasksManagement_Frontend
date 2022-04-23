@@ -262,14 +262,14 @@ const AddTask = () => {
           <div className="footer">
             <div className="left-side" style={{ marginTop: "20px" }}>
               <IoIosAttach />
-              <input
+              {/* <input
                 type="file"
                 name="file"
                 id="file"
                 onChange={(e) =>
                   setInputs({ ...inputs, selectedFile: e.target.files[0] })
                 }
-              />
+              /> */}
               <label for="file">Attach</label>
               {/* <FileBase
                 type="file"
