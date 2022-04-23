@@ -21,6 +21,7 @@
 }
 .right-side {
   display: flex;
+  justify-content: center;
 }
 .right-side span {
   padding-right: 30px;
@@ -28,7 +29,7 @@
   cursor: pointer;
 }
 .header-icons {
-  margin-top: 4px;
+  margin-top: 1px;
   margin-right: 4px;
 }
 .input {
@@ -116,7 +117,7 @@
   background-color: skyblue;
   color: #fff;
   border-radius: 5px;
-  padding: 0.5px;
+  padding: 3px;
   width: 50px;
   margin-top: 2px;
   margin-left: 40%;
