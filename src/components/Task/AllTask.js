@@ -13,12 +13,12 @@ function AllTask({ task }) {
         <td>{task.projects}</td>
         <td>{task.priority}</td>
         <td>
-          <Link to="/">
+          <Link to="#">
             <AiFillEdit style={{ color: "blue" }} />
           </Link>
         </td>
         <td>
-          <Link to="/">
+          <Link to="#">
             <AiFillDelete style={{ color: "red" }} />
           </Link>
         </td>
